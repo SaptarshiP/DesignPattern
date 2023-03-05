@@ -1,0 +1,13 @@
+package com.psja.Chain;
+
+public class Handler {
+
+	private Handler handler;
+	
+	public Handler setNextHandler( Handler handler ) {
+		this.handler = handler;
+		return this.handler;
+	}
+	
+	public abstract void handle();
+}

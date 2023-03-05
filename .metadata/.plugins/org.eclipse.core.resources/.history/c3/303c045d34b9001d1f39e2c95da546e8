@@ -1,0 +1,7 @@
+package com.psja;
+
+public class Subscriber {
+
+	private String subscriberName;
+	
+}

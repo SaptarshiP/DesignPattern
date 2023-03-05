@@ -1,0 +1,16 @@
+package com.psja.Chain;
+
+public class PasswordHandler extends Handler{
+
+	private Database database;
+	
+	public PasswordHandler( Database database ) {
+		this.database = database;
+	}
+	@Override
+	public Boolean handle( String userName, String password ) {
+		if ( database.checkPassword( password ) )
+			
+		return Boolean.FALSE;
+	}
+}

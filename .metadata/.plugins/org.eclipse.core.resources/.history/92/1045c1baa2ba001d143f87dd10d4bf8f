@@ -1,0 +1,9 @@
+package com.psja;
+
+public class IteratorDesignPattern {
+
+	public static void main( String args[]  ) throws Exception{
+		
+	}
+	
+}

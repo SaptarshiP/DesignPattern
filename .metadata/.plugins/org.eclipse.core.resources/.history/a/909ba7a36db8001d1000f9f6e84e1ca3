@@ -1,0 +1,8 @@
+package com.psja;
+
+public class Car extends Vehicle{
+
+	Car( WorkshopPurpose workshopPurpose1, WorkshopPurpose workshopPurpose2 ){
+		super( workshopPurpose1, workshopPurpose2 );
+	}
+}

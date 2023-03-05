@@ -1,0 +1,9 @@
+package com.psja.AdapterDesign;
+
+public class PhoneAdapter implements PhoneInterface{
+
+	@Override
+	public void charge() {
+		
+	}
+}

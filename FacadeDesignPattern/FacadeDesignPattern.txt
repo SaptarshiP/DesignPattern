@@ -1,0 +1,3 @@
+The facade design pattern is used when we the client doesn't want to do all the task, he assign some class to do for him.
+There will be a facade class who will perform all the business logic according to the input given by the client.
+At the end it will give a consolidated output to the client.

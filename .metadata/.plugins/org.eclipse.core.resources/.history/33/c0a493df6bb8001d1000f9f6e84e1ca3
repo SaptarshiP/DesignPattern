@@ -1,0 +1,10 @@
+package com.psja;
+
+public class Car {
+	
+	WorkshopPurpose workshopPurpose1;
+	WorkshopPurpose workshopPurpose2;
+	
+	protected 
+
+}

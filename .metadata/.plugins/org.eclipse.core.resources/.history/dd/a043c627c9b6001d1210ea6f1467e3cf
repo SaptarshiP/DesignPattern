@@ -1,0 +1,9 @@
+package com.psja.facade;
+
+public class FacadeClient {
+
+	public static void clientOperation() {
+		
+	}
+	
+}

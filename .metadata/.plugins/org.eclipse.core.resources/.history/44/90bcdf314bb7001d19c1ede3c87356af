@@ -1,0 +1,9 @@
+package com.psja.motor;
+
+public class Car implements Vehicle {
+
+	@Override
+	public void setColor( String color ) {
+		
+	}
+}

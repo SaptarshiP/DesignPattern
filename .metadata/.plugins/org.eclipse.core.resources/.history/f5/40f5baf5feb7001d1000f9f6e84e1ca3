@@ -1,0 +1,15 @@
+package com.psja.CompositeDesign;
+
+public class Leaf implements Component {
+
+	private Integer price;
+	
+	Leaf( Integer price ){
+		this.price = price;
+	}
+	
+	@Override
+	public void showPrice() {
+		System.out.println( price );
+	}
+}

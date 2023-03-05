@@ -1,0 +1,10 @@
+package com.psja.Chain;
+
+public class Handler {
+
+	private Handler handler;
+	
+	public void setNextHandler() {
+		
+	} 
+}

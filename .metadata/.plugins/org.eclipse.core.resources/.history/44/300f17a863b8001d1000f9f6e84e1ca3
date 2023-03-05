@@ -1,0 +1,6 @@
+package com.psja;
+
+public interface WorkshopPurpose {
+
+	public void work();
+}

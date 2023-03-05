@@ -1,0 +1,36 @@
+package com.psja;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Channel {
+
+	private String videoName;
+	private List< Subscriber > subscriberList = new ArrayList<>();
+	
+	
+	public void addSubscriber( Subscriber subscriber ) {
+		this.subscriberList.add( subscriber );
+	}
+	public void removeSubscriber( Subscriber rmvSubscriber ) {
+		
+		Integer i = 0;
+		for ( Subscriber subscriber: subscriberList ) {
+			i++;
+			if ( subscriber.getSubscriberName().equalsIgnoreCase( 
+													rmvSubscriber.getSubscriberName() ) ) {
+				subscriberList.remove( i );
+				break;
+			}
+		}	
+	}
+	public void notifyInformation( String channelName ) {
+		for ( Subscriber subscriber : subscriberList ) {
+			subscriber.notifyInformation( this.videoName, channelName );
+		}
+	}
+	public void uploadVideo( String name ) {
+		this.videoName = name;
+		notifyInformation();
+	}
+}

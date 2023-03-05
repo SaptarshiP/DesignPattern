@@ -1,0 +1,13 @@
+package com.psja.facade;
+
+import com.psja.model.BROWSER_NAME;
+
+public class FacadeDesign {
+
+	public void facadeWork( BROWSER_NAME browserName ) {
+		
+		switch(  ):
+		
+	}
+	
+}

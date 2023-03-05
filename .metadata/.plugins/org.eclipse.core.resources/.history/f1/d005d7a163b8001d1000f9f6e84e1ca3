@@ -1,0 +1,7 @@
+package com.psja;
+
+public class Producer implements WorkshopPurpose{
+
+	
+
+}

@@ -1,0 +1,18 @@
+package com.psja.flyway;
+
+import java.lang.Exception;
+
+public class Client {
+
+	public static void processFlyway() {
+		FlywayServer flywayServer = null;
+		try {
+			
+			flywayServer = new FlywayServer();
+			flywayServer.createSpecificObject(null);
+		} catch( Exception exp ) {
+			
+		}
+	}
+	
+}

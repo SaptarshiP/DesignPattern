@@ -1,0 +1,12 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+public class ObserverDesign {
+
+	public static void main( String args[] ) {
+		
+		
+	}
+	
+}

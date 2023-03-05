@@ -1,0 +1,7 @@
+The observer design pattern is used when there is a subject and observer design pattern.
+there is a subject class which is beeing observed by some class.
+when there is a change in the subject class, the subject class will send a notification to the observer class.
+In the youtube, there is a channel class( subject ), the subscriber class (observer)
+when the new video uploaded a channel, a notify method of subscriber class is class from channel class.
+instead of pulling the data everytime by the observer class from subject class
+the subject class notify the observer class.

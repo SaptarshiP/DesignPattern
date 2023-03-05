@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;TemplateMethidPattern&apos;" deleteContents="true" description="Delete resource &apos;TemplateMethidPattern&apos;" element1="/TemplateMethidPattern" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1677778347628"/>&#x0A;<refactoring comment="Delete resource &apos;ChainResponsibility&apos;" deleteContents="true" description="Delete resource &apos;ChainResponsibility&apos;" element1="/ChainResponsibility" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1677868573926"/>
+</session>

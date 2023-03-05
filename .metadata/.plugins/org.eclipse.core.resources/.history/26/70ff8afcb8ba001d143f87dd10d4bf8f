@@ -1,0 +1,18 @@
+package com.psja;
+
+import java.util.List;
+
+import com.psja.iterator.MaximumArrayList;
+import com.psja.iterator.MyContainer;
+
+import java.util.ArrayList;
+
+public class CheckIterator {
+
+	public void checkMethod() {
+		
+		List< Integer > numList = List.of( 3, 2, 5, 1, 6, 4 );
+		MyContainer myContainer = new MaximumArrayList();
+	}
+	
+}

@@ -1,0 +1,24 @@
+package com.psja.flyway;
+
+import java.lang.Exception;
+
+import com.psja.motor.Vehicle;
+
+public class Client {
+
+	public static void processFlyway() {
+		FlywayServer flywayServer = null;
+		Vehicle vehicle = null;
+		try {
+			
+			flywayServer = new FlywayServer();
+			vehicle = flywayServer.createSpecificObject( "car" );
+			vehicle.setColor( "Green" );
+			vehicle.generateOutput();
+			vehicle = flywayServer.createSpecificObject( "truck" );
+		} catch( Exception exp ) {
+			
+		}
+	}
+	
+}

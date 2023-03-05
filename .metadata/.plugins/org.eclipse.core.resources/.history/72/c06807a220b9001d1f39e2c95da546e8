@@ -1,0 +1,9 @@
+package com.psja;
+
+public class TemplateMethodDesignPattern {
+
+	public static void main( String args[] ) {
+		
+	}
+	
+}

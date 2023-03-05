@@ -1,0 +1,14 @@
+package com.psja.check;
+
+import com.psja.Car;
+
+public class CheckC extends Car{
+
+	CheckC(){
+		super( null, null );
+	}
+	public void ch() {
+		new Car( null, null );
+	}
+	
+}

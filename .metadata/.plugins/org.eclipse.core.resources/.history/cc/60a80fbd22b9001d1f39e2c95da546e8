@@ -1,0 +1,17 @@
+package com.psja.templatedesign;
+
+public class TemplateClass {
+
+	public void templateMethod() {
+		
+		
+	}
+	
+	public void loadLocalDate() {
+		System.out.println( "The default implementation of load local data" );
+	}
+	public void createObjects() {
+		System.out.println( "The default implementation of create object" );
+	}
+	
+}

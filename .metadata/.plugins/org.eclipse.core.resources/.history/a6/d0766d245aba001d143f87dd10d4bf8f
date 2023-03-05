@@ -1,0 +1,20 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+import com.psja.Chain.Database;
+import com.psja.Chain.Handler;
+import com.psja.Chain.PasswordHandler;
+import com.psja.Chain.UsernameHandler;
+
+public class ChainOfResponsibility {
+
+	public static void main( String args[] ) {
+		out.println( "Here in chain of responsibility" );
+		Database database = new Database( "psja", "psja@2019" );
+		
+		Handler handler = new UsernameHandler( database );
+		handler.setNextHandler( new PasswordHandler( database ) ) ;
+		handler.handle("psja", "psja@2019");
+	}
+}

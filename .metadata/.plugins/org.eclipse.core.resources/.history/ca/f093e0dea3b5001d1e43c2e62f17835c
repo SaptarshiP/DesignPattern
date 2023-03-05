@@ -1,0 +1,13 @@
+package com.psja.AdapterDesign;
+
+import static java.lang.System.out;
+
+import com.check.KeyPadPhone;
+
+public class PhoneAdapter implements PhoneInterface{
+
+	@Override
+	public void charge() {
+		KeyPadPhone keyPadPhone = new KeyPadPhone();
+	}
+}

@@ -1,0 +1,10 @@
+package com.psja.motor;
+
+public class Truck implements Vehicle {
+
+	@Override
+	public void setColor() {}
+	
+	@Override
+	public void generateOutput() {}
+}

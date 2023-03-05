@@ -1,0 +1,9 @@
+package com.psja.CompositeDesign;
+
+public class CompositeServer {
+
+	public void createComposite() {
+		Component mouse = new Leaf( 1000, "mouse" );
+	}
+	
+}

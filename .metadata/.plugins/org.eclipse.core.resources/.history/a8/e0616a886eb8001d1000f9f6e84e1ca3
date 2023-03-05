@@ -1,0 +1,13 @@
+package com.psja;
+
+public class Bus extends Vehicle{
+
+	Bus( WorkshopPurpose workshopPurpose1, WorkshopPurpose workshopPurpose2 ){
+		super( workshopPurpose1, workshopPurpose2 );
+	}
+
+	@Override
+	public void create() {
+		
+	}
+}

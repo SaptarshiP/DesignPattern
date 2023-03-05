@@ -1,0 +1,9 @@
+package com.psja.CompositeDesign;
+
+public class CompositeComponent implements Component {
+
+	@Override
+	public void showPrice() {
+		
+	}
+}

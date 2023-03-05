@@ -1,0 +1,4 @@
+The flyway design pattern is used when there are huge amount of objects to be created and within the objects created, there are similarity.
+So we try to reuse the same object by updating the non instransic fields of the object.
+There contains a flyway class, which performs that task.
+It is used when creating large amounts of object is very costly.

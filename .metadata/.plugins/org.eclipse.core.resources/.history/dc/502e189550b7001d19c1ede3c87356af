@@ -1,0 +1,27 @@
+package com.psja.flyway;
+
+import java.util.Map;
+import java.util.HashMap;
+
+import com.psja.motor.Car;
+import com.psja.motor.Truck;
+import com.psja.motor.Vehicle;
+
+public class FlywayServer {
+
+	private Map< String, Vehicle > objectMap = new HashMap<>();
+	
+	public void createSpecificObject( String type ) {
+		Vehicle vehicle = null;
+		if ( !objectMap.containsKey( type ) ) {
+			if ( type.equalsIgnoreCase( "car" ) ) 
+				vehicle = new Car();
+			else if ( type.equalsIgnoreCase( "truck" ) )
+				vehicle = new Truck();
+			
+			objectMap.put(type, vehicle);
+			
+		}
+	}
+	
+}

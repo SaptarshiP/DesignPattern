@@ -1,0 +1,11 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+public class CompositeDesignPattern {
+
+	public static void main( String args[] ) {
+		out.println( "The output is " );
+	}
+	
+}

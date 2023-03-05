@@ -1,0 +1,7 @@
+package com.psja.templatedesign;
+
+public class WorldOfWarCraft extends TemplateClass {
+
+	
+	
+}

@@ -1,0 +1,11 @@
+package com.psja.Chain;
+
+public class Database {
+	
+	private String userName;
+	private String password;
+	
+	public Database( String userName, String password ) {
+		
+	}
+}

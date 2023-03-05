@@ -1,0 +1,6 @@
+The decorator design pattern is used, when a base object is beeing decorated with different type of object
+Think an example of designing a pizza store
+there are some base pizza
+there are some topings above base pizza , which is different for different pizza.
+so the base pizaa object is decorated with topings pizza object which becomes a new pizza.
+so instead this decorating an object with another object is helpful. 

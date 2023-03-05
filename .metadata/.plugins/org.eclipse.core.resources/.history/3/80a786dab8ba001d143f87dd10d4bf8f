@@ -1,0 +1,13 @@
+package com.psja;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class CheckIterator {
+
+	public void checkMethod() {
+		
+		List< Integer > numList = List.of( 3, 2, 5, 1, 6, 4 );
+	}
+	
+}

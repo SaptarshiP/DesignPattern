@@ -1,0 +1,10 @@
+package com.psja;
+
+public class Subscriber {
+
+	private String subscriberName;
+	
+	public String getSubscriberName() {
+		return this.subscriberName;
+	}
+}

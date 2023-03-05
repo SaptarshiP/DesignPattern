@@ -1,0 +1,31 @@
+package com.psja.facade;
+
+import com.jarcheck.driver.ChromeDriver;
+import com.jarcheck.driver.Driver;
+import com.psja.model.BROWSER_NAME;
+
+public class FacadeDesign {
+
+	public void facadeWork( BROWSER_NAME browserName ) {
+		
+		Driver driver = null;
+		switch( browserName ) {
+			case CHROME:
+				{
+					driver = new ChromeDriver();
+					System.out.println( driver.getDriver() );
+					break;
+				}
+			case OPERA:
+				{
+					break;
+				}
+			case EXPLORER:
+				{
+					break;
+				}
+		}
+		
+	}
+	
+}

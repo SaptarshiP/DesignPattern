@@ -1,0 +1,17 @@
+package com.psja.Chain;
+
+public abstract class Handler {
+
+	private Handler nextHandler;
+	
+	public Handler setNextHandler( Handler handler ) {
+		this.handler = handler;
+		return this.handler;
+	}
+	
+	public abstract Boolean handle( String userName, String password );
+	
+	public void moveToNextHandler() {
+		
+	}
+}

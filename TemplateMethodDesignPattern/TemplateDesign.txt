@@ -1,0 +1,6 @@
+The template design pattern is used in this situation when the 
+we have created a class for a particular application
+that same class with more or less same implementation is used by another application
+instead of creating a new class implementation, we can use the old implementation
+for that purpose the template(class) is created with abstract method and the class which want to implement it can extend the class and override the method
+instead we can have default implementation of the method, the needed method can be overriden.

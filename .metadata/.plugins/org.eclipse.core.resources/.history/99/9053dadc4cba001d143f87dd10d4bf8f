@@ -1,0 +1,15 @@
+package com.psja.Chain;
+
+public class UsernameHandler extends Handler {
+
+	private Database database; 
+	
+	public UsernameHandler( Database database ) {
+		
+	}
+	
+	@Override
+	public void handle( String userName, String password ) {
+		
+	}
+}

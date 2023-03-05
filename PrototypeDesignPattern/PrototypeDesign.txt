@@ -1,0 +1,3 @@
+Instead of creating a whole object, we are creating a clone of the object.
+so that it saves time.
+It is mainly require during retrieving data from database.Instead of retrieving data for more than one time, we are reusing it.

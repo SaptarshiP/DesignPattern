@@ -1,0 +1,9 @@
+package com.psja.flyway;
+
+public class Client {
+
+	public static void processFlyway() {
+		
+	}
+	
+}

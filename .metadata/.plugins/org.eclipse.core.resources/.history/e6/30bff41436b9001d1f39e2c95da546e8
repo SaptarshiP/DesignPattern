@@ -1,0 +1,13 @@
+package com.psja;
+
+public class Subscriber {
+
+	private String subscriberName;
+	
+	public String getSubscriberName() {
+		return this.subscriberName;
+	}
+	public void notify() {
+		System.out.println( "The video uploaded" );
+	}
+}

@@ -1,0 +1,9 @@
+package com.psja;
+
+public class User {
+
+	public static void userTask() {
+		
+	}
+	
+}

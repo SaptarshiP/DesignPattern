@@ -1,0 +1,19 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+import com.psja.templatedesign.Diablo;
+import com.psja.templatedesign.WorldOfWarCraft;
+
+public class TemplateMethodDesignPattern {
+
+	public static void main( String args[] ) {
+		out.println( "Here in template design pattern" );
+		
+		WorldOfWarCraft worldOfWarCraft = new WorldOfWarCraft();
+		worldOfWarCraft.templateMethod();
+		Diablo diablo = new Diablo();
+		diablo.templateMethod();
+	}
+	
+}

@@ -1,0 +1,26 @@
+package com.psja.CompositeDesign;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class CompositeComponent implements Component {
+
+	private String device;
+	List< Component > componentList = new ArrayList<>();
+	
+	CompositeComponent( String device ){
+		this.device = device;
+	}
+	
+	public void addComponent( Component component ) {
+		this.componentList.add( component );
+	}
+	
+	@Override
+	public void showPrice() {
+		System.out.println( device +":" );
+		for ( Component component: componentList ) {
+			component.showPrice();
+		}
+	}
+}

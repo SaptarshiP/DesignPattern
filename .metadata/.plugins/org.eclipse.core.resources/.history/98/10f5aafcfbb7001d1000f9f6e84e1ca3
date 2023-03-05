@@ -1,0 +1,6 @@
+package com.psja.CompositeDesign;
+
+public class Leaf implements Component {
+
+	public 
+}

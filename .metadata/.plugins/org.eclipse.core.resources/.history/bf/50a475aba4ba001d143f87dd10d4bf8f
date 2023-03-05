@@ -1,0 +1,6 @@
+package com.psja.iterator;
+
+public class MyContainer {
+
+	public MyIterator getIterator();
+}

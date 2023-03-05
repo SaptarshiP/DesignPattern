@@ -1,0 +1,7 @@
+package com.psja.iterator;
+
+public interface MyIterator {
+
+	public Boolean checkNext();
+	public Integer getNext();
+}

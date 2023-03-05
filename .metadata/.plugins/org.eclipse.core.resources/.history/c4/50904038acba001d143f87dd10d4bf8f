@@ -1,0 +1,30 @@
+package com.psja.iterator;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class MaximumArrayList implements MyContainer{
+	
+	private List< Integer > objList = new ArrayList<>();
+
+	@Override
+	public void createList( List< Integer > demoList ) {
+		this.objList.addAll( demoList );
+	}
+	@Override
+	public MyIterator getIterator() {
+		return null;
+	}
+	
+	class MyIterable implements MyIterator{
+		
+		@Override
+		public Boolean checkNext() {
+			return null;
+		}
+		@Override
+		public Integer getNext() {
+			return null;
+		}
+	}
+}

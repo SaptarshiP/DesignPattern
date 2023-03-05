@@ -1,0 +1,8 @@
+package com.psja;
+
+public class Manufacturer implements WorkshopPurpose{
+
+	public void work() {
+		
+	}
+}

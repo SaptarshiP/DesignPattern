@@ -1,0 +1,13 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+import com.psja.Chain.Database;
+
+public class ChainOfResponsibility {
+
+	public static void main( String args[] ) {
+		out.println( "Here in chain of responsibility" );
+		Database database = new Database( "psja", "psja@2019" );
+	}
+}

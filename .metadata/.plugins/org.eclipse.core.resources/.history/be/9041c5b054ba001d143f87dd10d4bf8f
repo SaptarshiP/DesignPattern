@@ -1,0 +1,10 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+public class ChainOfResponsibility {
+
+	public static void main( String args[] ) {
+		out.println( "Here in chain of responsibility" );
+	}
+}

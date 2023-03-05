@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;vehicle&apos; in &apos;com.psja.flyway.Client.processFlyway()&apos; to &apos;carVehicle&apos;&#x0D;&#x0A;- Original project: &apos;FlyWayDesignPattern&apos;&#x0D;&#x0A;- Original element: &apos;com.psja.flyway.Client.processFlyway().vehicle&apos;&#x0D;&#x0A;- Renamed element: &apos;vehicle&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;vehicle&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.psja.flyway{Client.java[Client~processFlyway@vehicle!196!218!204!210!QVehicle;!0!false" name="carVehicle" references="true" stamp="1677580992000" version="1.0"/>
+</session>

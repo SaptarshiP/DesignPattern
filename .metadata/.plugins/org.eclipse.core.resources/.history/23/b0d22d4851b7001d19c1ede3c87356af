@@ -1,0 +1,5 @@
+package com.psja.flyway;
+
+public class Client {
+
+}

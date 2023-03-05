@@ -1,0 +1,2 @@
+The composite design pattern is used when the project structure is a leaf like architecture, where all the node of the object represent a tree,
+all the object have the same interface, the intermediary object wraps the leaf object.

@@ -1,0 +1,9 @@
+package com.psja.flyway;
+
+public class FlywayServer {
+
+	public void createSpecificObject() {
+		
+	}
+	
+}

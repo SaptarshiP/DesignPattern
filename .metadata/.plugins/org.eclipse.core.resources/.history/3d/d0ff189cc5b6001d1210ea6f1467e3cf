@@ -1,0 +1,64 @@
+package com.psja.facade;
+
+import com.jarcheck.driver.ChromeDriver;
+import com.jarcheck.driver.Driver;
+import com.psja.model.BROWSER_NAME;
+import com.psja.model.REPORT;
+import com.psja.report.Report;
+
+public class FacadeDesign {
+
+	private Report report;
+	private static FacadeDesign instance;
+	private FacadeDesign(){}
+
+	private FacadeDesign( Report report ) {
+		this.report = report;
+	}
+	
+	public static FacadeDesign getInstance() {
+		if ( instance == null )
+			instance = new FacadeDesign();
+		return null;
+	}
+	
+	public void facadeWork( BROWSER_NAME browserName, REPORT report ) {
+		
+		
+		Driver driver = null;
+		switch( browserName ) {
+			case CHROME:
+				{
+					driver = new ChromeDriver();
+					System.out.println( driver.getDriver() );
+					generateReport( report, browserName );
+					break;
+				}
+			case OPERA:
+				{
+					break;
+				}
+			case EXPLORER:
+				{
+					break;
+				}
+		}
+		
+	}
+	
+	public void generateReport( REPORT report, BROWSER_NAME browserName ) {
+		
+		switch ( report ) {
+			case HTML:
+				{
+					
+					break;
+				}
+			case JUNIT:
+				{
+					break;
+				}
+		}
+	}
+	
+}

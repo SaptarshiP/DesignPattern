@@ -1,0 +1,9 @@
+package com.psja.Chain;
+
+public class UsernameHandler extends Handler {
+
+	@Override
+	public void handle( String userName, String password ) {
+		
+	}
+}

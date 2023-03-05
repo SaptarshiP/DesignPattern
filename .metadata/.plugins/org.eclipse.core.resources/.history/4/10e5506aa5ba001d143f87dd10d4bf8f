@@ -1,0 +1,13 @@
+package com.psja.iterator;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class MaximumArrayList implements MyContainer{
+	
+	private List< Integer > objList = new ArrayList<>();
+
+	public void setList( List< Integer > demoList ) {
+		this.objList.addAll( demoList );
+	}
+}

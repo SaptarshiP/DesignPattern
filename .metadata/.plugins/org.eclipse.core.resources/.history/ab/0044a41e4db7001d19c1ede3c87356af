@@ -1,0 +1,20 @@
+package com.psja.motor;
+
+public class Car implements Vehicle {
+
+	private String maximumSpeed;
+	private String color;
+	Car(){
+		this.maximumSpeed = "200 km per hr";
+	}
+	
+	@Override
+	public void setColor( String color ) {
+		this.color = color;
+	}
+	
+	@Override
+	public void generateOutput() {
+		
+	}
+}
