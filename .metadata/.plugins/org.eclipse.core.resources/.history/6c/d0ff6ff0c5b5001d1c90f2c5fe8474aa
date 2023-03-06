@@ -1,8 +1,0 @@
-package com.psja.AdapterDesign;
-
-public class Person {
-
-	public void wantToCharge() {
-		
-	}
-}

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.example.user.util.JsonProperty"/>
     <fullyQualifiedTypeName name="com.example.user.util.JsonManipulation"/>
     <fullyQualifiedTypeName name="com.psja.factory.client.FactoryClient"/>
     <fullyQualifiedTypeName name="com.psja.factory.client.AndroidOS"/>
@@ -55,9 +54,10 @@
     <fullyQualifiedTypeName name="com.psja.Chain.Handler"/>
     <fullyQualifiedTypeName name="com.psja.Chain.UsernameHandler"/>
     <fullyQualifiedTypeName name="com.psja.Chain.PasswordHandler"/>
-    <fullyQualifiedTypeName name="com.psja.iterator.MyContainer"/>
     <fullyQualifiedTypeName name="com.psja.iterator.MaximumArrayList"/>
     <fullyQualifiedTypeName name="com.psja.iterator.MyIterator"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.psja.iterator.DepthFirstSearch"/>
+    <fullyQualifiedTypeName name="com.psja.iterator.MyContainer"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
 </qualifiedTypeNameHistroy>

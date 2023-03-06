@@ -22,12 +22,12 @@ public class CheckIterator {
 	}
 	
 	public static void checkDepthFirstSearch() {
-		DepthFirst<Integer> depthFirstSearchInteger = new DepthFirst<>();
-		depthFirstSearchInteger.setData(1);
-		System.out.println( depthFirstSearchInteger.getData() );
-		DepthFirst<String> depthFirstSearchString = new DepthFirst<>();
-		depthFirstSearchString.setData( "psja" );
-		System.out.println( depthFirstSearchString.getData() );
+		DepthFirst myContainer = new DepthFirst();
+		List<Integer> numList = Arrays.asList( 6,3,9,2,4,8,10 );
+		myContainer.createList(numList);
+		
+		MyIterator myIterator = myContainer.new DepthFirstSearchIterator();
+		myIterator.getNext();
 	}
 	
 }

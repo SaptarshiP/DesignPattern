@@ -1,9 +1,0 @@
-package com.psja.report;
-
-public class htmlReport implements Report {
-
-	public void generateReport() {
-		System.out.println( "I am in html report" );
-	}
-	
-}

@@ -1,9 +1,0 @@
-package com.jarcheck.driver;
-
-public final class OperaDriver implements Driver {
-
-	public String getDriver() {
-		return "OPERA_DRIVER";
-	}
-	
-}

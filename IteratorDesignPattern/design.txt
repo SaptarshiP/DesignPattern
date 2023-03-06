@@ -1,0 +1,2 @@
+a particular list has been iterated in the way done in the iterator pattern.
+it is in our hand how the list is iterated. the class which iterates comes in the iterator pattern.

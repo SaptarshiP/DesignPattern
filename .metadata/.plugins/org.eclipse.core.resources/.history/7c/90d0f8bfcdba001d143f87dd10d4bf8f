@@ -1,7 +1,0 @@
-package com.psja.iterator;
-
-public class DepthFirstSearch<T> {
-
-	
-	
-}

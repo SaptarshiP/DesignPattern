@@ -11,6 +11,15 @@ public class Node<T> {
 		this.rightNode = rightNode;
 	}
 	
+	public void setValue( T value ) {
+		this.value = value;
+	}
+	public void setLeftNode( Node<T> leftNode ) {
+		this.leftNode = leftNode;
+	}
+	public void setRightNode( Node<T> rightNode ) {
+		this.rightNode = rightNode;
+	}
 	public T getValue() {
 		return this.value;
 	}

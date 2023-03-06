@@ -1,0 +1,3 @@
+In the chain of responsibility design pattern the responsibility is passed to the next class, if the particular class responsibility has been meet.
+like linked list a particular class contains information, to whom the responsibility to give.
+ 
